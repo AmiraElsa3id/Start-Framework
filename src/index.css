@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  box-sizing: border-box;
+}
+#root { 
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.active { 
+  @apply bg-[#1abc9c] p-2 block rounded-md text-white transition duration-500
+}
